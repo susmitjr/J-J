@@ -1,0 +1,5 @@
+TC|Region|ACName|LastName|Phone|MailCountry|first_Name|last_Name|emaiL|passorD|phonE
+TC001|S|MME|Rock||LA
+TC002|U|UAT|Tyson|+16301120|Canada
+TC003|U|Test|Patient1|123456789|India
+TC004||||||Patient|Test|patient.test@jnj.com|Salesforce7@|1234567890

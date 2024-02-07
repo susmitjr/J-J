@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="31.547" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Verify Text" name="TC001_Verify that an element contains specific text" time="31.284">
+<failure type="java.lang.RuntimeException" message="Failed to find element with locator: By.xpath: //span[contains(text(),&quot;SSign up for support today!&quot;)]">
+<![CDATA[java.lang.RuntimeException: Failed to find element with locator: By.xpath: //span[contains(text(),"SSign up for support today!")]
+	at utilities.ObjectManager.getObject(ObjectManager.java:47)
+	at StepDefinitions.Stepdefs.iVerifyEleDisplayed(Stepdefs.java:116)
+	at ✽.I verify that "headerElement" is displayed(file:///C:/Automation/com.carepath.jnj/src/test/resources/Features/Practice/Verify_text.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Test data loaded from file "src/test/resources/TestData/One_Program.csv" for the Case "TC001_OneProgram".passed
+When I navigate to URL......................................................passed
+Then I wait for 2 seconds...................................................passed
+Then I refresh the page.....................................................passed
+Then I wait for 5 seconds...................................................passed
+Then I verify that "headerElement" is displayed.............................failed
+And I capture Screenshot "Home".............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

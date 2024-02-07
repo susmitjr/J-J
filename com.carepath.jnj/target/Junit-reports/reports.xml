@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="133.111" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="TC002_CarePath_CreateContact.feature" name="Verify that user can create contacts" time="132.999">
+<system-out><![CDATA[
+Given Test data loaded from file "src/test/java/TestData/UAT_DataSheet.csv".passed
+When User navigates to Salesforce for contact creation......................passed
+]]></system-out>
+</testcase>
+</testsuite>

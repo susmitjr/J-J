@@ -1,0 +1,6 @@
+elementName,xpathLocator
+welcomeMessage,//div[@id='welcomeMessage']
+usernameInput,//input[@id='username']
+passwordInput,//input[@id='password']
+loginButton,//button[contains(text(),'Login')]
+headerElement,//span[contains(text(),'Sign up for support today!')]
